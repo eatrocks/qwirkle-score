@@ -1,0 +1,76 @@
+@import '../../variables.css';
+
+.scorePad {
+    padding: 5%;
+}
+
+.calculator {
+  max-width: 24em;
+  border-radius: .5em;
+  margin: 0 auto;
+  box-shadow: 0 2px 40px rgba(0, 0, 0, .1);
+}
+
+.header {
+
+}
+
+.body {
+  max-width: 24em;
+  border-radius: .5em;
+  margin: 0 auto;
+  box-shadow: 0 2px 40px rgba(0, 0, 0, .1);
+}
+
+.numbers {
+
+}
+
+.operations {
+  float: right;
+  width: auto; 
+  display: grid;
+}
+
+.opCell {
+  background-color: #4685b5;
+  color: #fff;
+  width: 100%;
+
+  &:last-child {
+    border-bottom-right-radius: .3em;
+  }
+
+  &:hover, &:focus {
+    background-color: #4685b5;
+
+    span {
+      background-color: #4684b6;
+      transform: none;
+    }
+  }
+}
+
+.cell {
+  background-color: #4685b5;
+  color: #fff;
+  width: 100%;
+
+  &:last-child {
+    border-bottom-right-radius: .3em;
+  }
+
+  &:hover, &:focus {
+    background-color: #4685b5;
+
+    span {
+      background-color: #4684b6;
+      transform: none;
+    }
+  }
+}
+.span2 {
+  border-bottom-left-radius: .3em;
+  width: auto;
+  grid-column: 2 / 4;
+}

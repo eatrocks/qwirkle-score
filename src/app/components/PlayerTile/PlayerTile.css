@@ -1,0 +1,10 @@
+.tile {
+  background-color: darkGrey;
+  color: white;
+  padding: .2em;
+  border-bottom: 1px solid lightgrey;
+}
+
+.active {
+  background-color: #3498db;
+}
